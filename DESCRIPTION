@@ -1,0 +1,29 @@
+Package: modelcompilation
+Type: Package
+Title: modelcompilation
+Version: 0.1.0
+Authors@R: 
+    person(given = "Duco",
+           family = "Veen",
+           role = c("aut", "cre"),
+           email = "ducoveen@gmail.com")
+Description: Get Compiled Models Loaded To Be Used In A Shinyapps.io Environment
+License: GPL (>=3)
+Depends: 
+    methods,
+    R (>= 3.4.0),
+    Rcpp (>= 1.0.0)
+Imports: 
+    rstan (>= 2.18.2),
+    rstantools (>= 1.5.1)
+LinkingTo: 
+    BH (>= 1.66.0-1),
+    Rcpp (>= 1.0.0),
+    RcppEigen (>= 0.3.3.4.0),
+    rstan (>= 2.18.2),
+    StanHeaders (>= 2.18.0)
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: yes
+SystemRequirements: GNU make
+RoxygenNote: 6.1.1
